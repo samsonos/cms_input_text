@@ -4,7 +4,7 @@
  * @param saveHandler External pointer to field saving
  * @constructor
  */
-var SamsonCMS_InputField = function(fields, saveHandler)
+var SamsonCMS_InputText = function(fields, saveHandler)
 {
 	// Pointer
 	var o = this;
@@ -168,4 +168,4 @@ var SamsonCMS_InputField = function(fields, saveHandler)
 };
 
 // Bind input
-SamsonCMS_Input.bind(SamsonCMS_InputField, '.__inputfield.__textarea');
+SamsonCMS_Input.bind(SamsonCMS_InputText, '.__inputfield.__textarea');
