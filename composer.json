@@ -4,7 +4,8 @@
     "author":"Vitaly Iegorov <egorov@samsonos.com>",
     "require":{
         "samsonos/cms_app":"*",
-        "samsonos/js_core":"*"
+        "samsonos/js_core":"*",
+        "samsonos/cms_input":"*"
     },
     "license":"Open Software License (OSL) v 3.0",
     "homepage":"http://samsonos.com/",
