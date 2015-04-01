@@ -9,10 +9,8 @@ use \samsoncms\input\Field;
 
 class Text extends Field
 {
-    /** @var  int Field type identifier */
-    protected static $type = 0;
-
-    protected $id = 'samson_cms_input_text';
+//    /** @var  int Field type identifier */
+//    protected static $type = 0;
 
     /** Database object field name */
     protected $param = 'Value';

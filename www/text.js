@@ -44,7 +44,7 @@ var SamsonCMS_InputText = function(fields, saveHandler)
                 tb.css('font-size', '1.6em');
                 tb.css('font-style', 'normal');
                 tb.css('left', '-10px');
-                tb.css('top', tb.val().length ? '-5px' : '-6px');
+                tb.css('top', '-5px');
                 tb.show();
                 tb.css('line-height', p.height()+'px');
                 tb.focus();
