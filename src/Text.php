@@ -7,11 +7,12 @@ namespace samsoncms\input\text;
 
 use \samsoncms\input\Field;
 
+/**
+ * Text SamsonCMS input field
+ * @author Maxim Omelchenko <omelchenko@samsonos.com>
+ */
 class Text extends Field
 {
-//    /** @var  int Field type identifier */
-//    protected static $type = 0;
-
     /** Database object field name */
     protected $param = 'Value';
 
