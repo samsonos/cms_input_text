@@ -12,7 +12,6 @@
         }
     ],
     "require":{
-        "samsonos/cms_app":"*",
         "samsonos/js_core":"*",
         "samsonos/cms_input":"*"
     },
