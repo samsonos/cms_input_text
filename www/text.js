@@ -103,6 +103,20 @@ var SamsonCMS_InputText = function(fields, saveHandler)
             // If value changed
             if(new_value !== original.val())
             {
+            	
+            	// If field which not localized will be changed then update all fields
+                var materialFieldId = s('input[name="__obj_id"]',original.parent()).val();
+                var fields = s('input[id="field_'+materialFieldId+'"]');
+                var elements = fields.elements;
+
+                for(i in elements) {
+                    if (elements[i] != null){
+                        s('span', elements[i].parent()).html(new_value);
+                        s('.__input', elements[i].parent()).val(new_value);
+                        s('.__hidden', elements[i].parent()).a('value',new_value);
+                    }
+                }
+            	
                 // Hide field view
                 sp.hide();
 
