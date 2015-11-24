@@ -106,7 +106,7 @@ var SamsonCMS_InputText = function(fields, saveHandler)
             	
             	// If field which not localized will be changed then update all fields
                 var materialFieldId = s('input[name="__obj_id"]',original.parent()).val();
-                var fields = s('input[id="field_'+materialFieldId+'"]');
+                var fields = s('.material_table_tab input[id="field_'+materialFieldId+'"]');
                 var elements = fields.elements;
 
                 for(i in elements) {
